@@ -191,7 +191,7 @@ export default function Home() {
             opportunities.
           </p>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:johncook1220@icloud.com"
             className="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slateblue transition hover:bg-sand"
           >
             Email Me
