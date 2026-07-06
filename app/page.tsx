@@ -17,6 +17,12 @@ const projects = [
       "A business research project exploring how a root beer product could be introduced into the Spanish soft drink market through market analysis and communication strategy.",
     tags: ["Market Research", "Business", "Spain", "Communication"],
   },
+  {
+    title: "VPH-Based Employee Scheduler",
+    description:
+      "An app created to improve shop staffing decisions by using vehicle-per-hour data from a shop camera instead of relying only on point-of-sale statistics. It helps account for real traffic conditions, including times when cars are waiting in line even when sales data does not show the shop as overwhelmed.",
+    tags: ["GitHub", "Streamlit", "Codex"],
+  },
 ];
 
 const navLinks = [
@@ -148,7 +154,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
+        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {projects.map((project) => (
             <article
               key={project.title}
