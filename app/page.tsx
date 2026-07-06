@@ -72,6 +72,14 @@ export default function Home() {
                     Contact
                   </a>
                 </div>
+                <a
+                  href="https://www.linkedin.com/in/john-cook-4aab50310"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-6 inline-flex text-sm font-semibold text-slateblue underline decoration-slateblue/30 underline-offset-4 transition hover:text-accent"
+                >
+                  Connect on LinkedIn
+                </a>
               </div>
 
               <div className="rounded-[2rem] border border-white/70 bg-white/75 p-8 shadow-card backdrop-blur">
@@ -184,12 +192,22 @@ export default function Home() {
             I&apos;m always open to conversations about business, data, and new
             opportunities.
           </p>
-          <a
-            href="mailto:johncook1220@icloud.com"
-            className="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slateblue transition hover:bg-sand"
-          >
-            Email Me
-          </a>
+          <div className="mt-8 flex flex-wrap gap-4">
+            <a
+              href="mailto:johncook1220@icloud.com"
+              className="inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-slateblue transition hover:bg-sand"
+            >
+              Email Me
+            </a>
+            <a
+              href="https://www.linkedin.com/in/john-cook-4aab50310"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex rounded-full border border-white/25 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
       </section>
     </main>
