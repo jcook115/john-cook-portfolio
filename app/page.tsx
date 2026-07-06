@@ -144,9 +144,17 @@ export default function Home() {
       >
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-accent">
-              Projects
-            </p>
+            <div className="flex items-center gap-2">
+              <span
+                aria-hidden="true"
+                className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 text-accent"
+              >
+                ★
+              </span>
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-accent">
+                Projects
+              </p>
+            </div>
             <h2 className="mt-4 font-serif text-3xl text-slateblue sm:text-4xl">
               Selected work
             </h2>
