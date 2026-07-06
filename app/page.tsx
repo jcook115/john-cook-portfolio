@@ -1,11 +1,5 @@
 const projects = [
   {
-    title: "AutoPoll Dashboard",
-    description:
-      "A KPI dashboard that collects and tracks business data with Python automation, Playwright scraping, GitHub Actions scheduling, CSV storage, and Render deployment.",
-    tags: ["Python", "Playwright", "GitHub Actions", "CSV", "Render"],
-  },
-  {
     title: "VPH-Based Employee Scheduler",
     description:
       "An app created to improve shop staffing decisions by using vehicle-per-hour data from a shop camera instead of relying only on point-of-sale statistics. It helps account for real traffic conditions, including times when cars are waiting in line even when sales data does not show the shop as overwhelmed.",
