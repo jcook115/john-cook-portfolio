@@ -11,6 +11,19 @@ const projects = [
       "An app created to improve shop staffing decisions by using vehicle-per-hour data from a shop camera instead of relying only on point-of-sale statistics. It helps account for real traffic conditions, including times when cars are waiting in line even when sales data does not show the shop as overwhelmed.",
     tags: ["GitHub", "Streamlit", "Codex"],
   },
+  {
+    title: "KPI Dashboard",
+    description:
+      "A dashboard built to make shop sales statistics easier for district managers to access. The app uses an automated Playwright cron job to scrape data from the source website, then sends the results and a concise summary to three GroupMe chats for faster decision-making.",
+    tags: [
+      "GitHub",
+      "Render Web Service",
+      "Render Cron",
+      "Codex",
+      "Playwright",
+      "Python",
+    ],
+  },
 ];
 
 const navLinks = [
