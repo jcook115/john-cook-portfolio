@@ -6,18 +6,6 @@ const projects = [
     tags: ["Python", "Playwright", "GitHub Actions", "CSV", "Render"],
   },
   {
-    title: "Evening Sales Analysis",
-    description:
-      "A data analysis project built from Excel datasets using payment tendered totals, data cleaning, and clear graphs to understand sales patterns and performance.",
-    tags: ["Excel", "Data Cleaning", "Graphs", "Sales Analysis"],
-  },
-  {
-    title: "Spain Market Research Project",
-    description:
-      "A business research project exploring how a root beer product could be introduced into the Spanish soft drink market through market analysis and communication strategy.",
-    tags: ["Market Research", "Business", "Spain", "Communication"],
-  },
-  {
     title: "VPH-Based Employee Scheduler",
     description:
       "An app created to improve shop staffing decisions by using vehicle-per-hour data from a shop camera instead of relying only on point-of-sale statistics. It helps account for real traffic conditions, including times when cars are waiting in line even when sales data does not show the shop as overwhelmed.",
@@ -154,7 +142,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-12 grid gap-6 md:grid-cols-2">
           {projects.map((project) => (
             <article
               key={project.title}
